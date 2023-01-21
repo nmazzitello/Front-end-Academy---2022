@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final- CV</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/hoja1.css">
+</head>
+
+<body>
+
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-lg ">
+        <ul class="navbar-nav ">
+            <li class="nav-item">
+                <a class="nav-link" href="#infoPersonal">Informacion Personal</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiencia</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+        </ul>
+
+        <button id= "nuevoCV" class="btn ms-5">Nuevo CV</button>
+    </nav>
+
+    <div class="container">
+
+        <h1 id="nombre">Mazzitello, Nicolas Antonio</h1>
+
+        <img src="img/profile.jpeg" alt="fotoPerfil" id="fotoPerfil">
+
+        <!-- va a contener los 2 bloques -->
+        <div class="row mt-5">
+
+            <!-- bloque uno -->
+            <div id="bloqueUno" class="col-9">
+
+                <!-- Informacion personal -->
+                <section>
+                    <h3 class="mb-4" id="infoPersonal">INFORMACION PERSONAL</h3>
+
+                    <div class="d-flex info">
+                        <img src="img/email.png" alt="imagen de correo">
+                        <label for="email" id="email" class="ms-3">nmazzitello@gmail.com</label>
+                    </div>
+
+                    <div class="d-flex info" id="divLinkedin">
+                        <img src="img/linkedin (2).png" alt="imagen de linkedin">
+                        <a href="https://www.linkedin.com/in/nicolas-antonio-mazzitello-4206121a5/" class="ms-3">https://www.linkedin.com/in/nicolas-antonio-mazzitello-4206121a5/</a>
+
+                    </div>
+
+                    <div class="d-flex info">
+                        <img src="img/phone.png" alt="imagen de telefono">
+                        <label for="telefono" id="telefono" class="ms-3">1168532202</label>
+                    </div>
+
+                    <div class="d-flex info">
+                        <img src="img/country.png" alt="imagen de pais">
+                        <label for="pais" id="pais" class="ms-3">Argentina</label>
+                    </div>
+
+                    <div class="d-flex info">
+                        <img src="img/location.png" alt="imagen de direccion">
+                        <label for="direccion" id="direccion" class="ms-3">Urquiza 2069</label>
+                    </div>
+                    <div class="d-flex info">
+                        <img src="img/id-card.png" alt="imagen sobre mi">
+                        <label for="sobremi" id="sobremi" class="ms-3">Una persona autodidacta, con gran capacidad de
+                            resolución de problemas.
+                            Capaz de adaptarme e integrarme a grupos ya creados. Busco la posibilidad
+                            aportar mis capacidades y conocimientos en la organización.</label>
+                    </div>
+
+                </section>
+
+                <!-- Experiencia -->
+                <section class="mt-5">
+                    <H3 class="mb-4" id="experiencia">EXPERIENCIA</H3>
+
+                    <div class="mb-5">
+                        <div class="d-flex justify-content-between negrita">
+                            <label for="companyName">YPF</label>
+                            <label for="timeWorked" class="me-5">2021- Actualidad</label>
+                        </div>
+                        <label for="workstation" class="mb-2">Desarrollador</label>
+                        <ul>
+                            <li>Análisis, mantenimiento, creación, implementación y despliegue de módulos</li>
+                            <li>Soporte, pruebas unitarias y manejo de cliente</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="d-flex justify-content-between negrita">
+                            <label for="companyName">PLEXO</label>
+                            <label for="timeWorked" class="me-5">2022- 2022</label>
+                        </div>
+                        <label for="workstation" class="mb-2">Desarrollador</label>
+                        <ul>
+                            <li>Integración API’s</li>
+                        </ul>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- bloque 2 -->
+            <div id="bloqueDos" class="col-3">
+
+                <!-- Habilidades -->
+                <aside>
+                    <h3 id="habilidades">HABILIDADES</h3>
+
+                    <div>
+                        <h5 class="subtitulo">Técnicas:</h5>
+
+                        <ul>
+                            <li> C# </li>
+                            <li> MySql </li>
+                            <li> JavaScript </li>
+                            <li> Bootstrap </li>
+                            <li> Java </li>
+                            <li> React </li>
+                            <li> HTML </li>
+                            <li> CSS </li>
+                            <li> .NET </li>
+                            <li> Git </li>
+                            <li> Android (Java) </li>
+                            <li> UX/UI </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h5 class="subtitulo">Idiomas:</h5>
+
+                        <ul>
+                            <li>Español -Nativo</li>
+                            <li>Inglés -Intermedio</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>Desarrollado por <a id="creador" href="https://www.linkedin.com/in/nicolas-antonio-mazzitello-4206121a5/">Mazzitello, Nicolas Antonio-</a> <span id="anioActual">xxxx</span> - v1.0 </footer>
+
+    <script src="js/funciones.js"></script>
+</body>
+
+</html>

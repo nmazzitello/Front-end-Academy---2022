@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    font-size: 3vh;
+}
+
+label{
+    display: block;
+    font-size: 2vh;
+}
+
+li{
+    font-size: 2vh;
+}
+
+li:hover{
+    background-color: beige;
+    border-radius: 40%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 8vh;
+}
+
+h5{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 25px;
+    background-color: beige;
+}
+
+
+/* CLASES ---------------------------------------------*/
+.navbar{
+    padding: 2vh;
+    background-color: rgb(172, 172, 154) !important;
+}
+
+.negrita{
+    font-weight: bolder;
+}
+
+.info{
+    margin-bottom: 10px;
+}
+
+
+/* ID's -----------------------------------------------*/
+#bloqueUno{
+    background-color: beige;
+    padding: 3%;
+}
+
+#bloqueDos{
+    background-color: rgb(172, 172, 154);
+    padding: 3%;
+}
+
+#fotoPerfil{
+    height: 30vh;
+    border-radius: 20%;
+    display: block;
+    margin: auto;
+}
+
+#nuevoCV{
+    background-color: beige;
+}
+
+#creador{
+    text-decoration: none;
+}
